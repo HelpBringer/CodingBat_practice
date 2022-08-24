@@ -1,7 +1,8 @@
-import StringTasks.String1;
-import StringTasks.String2;
-import StringTasks.String3;
-import ArrayTasks.Array1;
+
+import StringTasks.*;
+import ArrayTasks.*;
+
+
 
 public class Main {
 
@@ -9,6 +10,10 @@ public class Main {
         System.out.println(String1.helloName("World"));
         System.out.println(String1.left2("Hi"));
         System.out.println();
+
+
+        Array2 arr2 = new Array2();
+        System.out.println(arr2.has22(new int[]{1, 2, 2}));
     }
 
 }
