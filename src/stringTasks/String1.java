@@ -1,4 +1,4 @@
-package StringTasks;
+package stringTasks;
 
 public class String1 {
 

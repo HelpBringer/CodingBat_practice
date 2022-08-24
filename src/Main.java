@@ -1,6 +1,6 @@
 
-import StringTasks.*;
-import ArrayTasks.*;
+import stringTasks.*;
+import arrayTasks.*;
 
 
 
