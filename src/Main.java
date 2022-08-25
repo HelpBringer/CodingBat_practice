@@ -2,7 +2,7 @@
 import stringTasks.*;
 import arrayTasks.*;
 import logicTasks.*;
-
+import recursionTasks.*;
 
 public class Main {
 
@@ -17,6 +17,10 @@ public class Main {
 
         Logic2 logic2 = new Logic2();
         System.out.println(logic2.makeChocolate(4, 1, 9));
+
+        Recursion2 recursion2= new Recursion2();
+        System.out.println(recursion2.split53(new int[]{3, 5, 6, 10, 3, 3}));
+
     }
 
 }
