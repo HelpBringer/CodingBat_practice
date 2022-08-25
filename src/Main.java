@@ -1,8 +1,9 @@
-
+import warmUpTasks.*;
 import stringTasks.*;
 import arrayTasks.*;
 import logicTasks.*;
 import recursionTasks.*;
+
 
 public class Main {
 
@@ -11,6 +12,8 @@ public class Main {
         System.out.println(String1.left2("Hi"));
         System.out.println();
 
+        WarmUp2 warmUp2= new WarmUp2();
+        System.out.println(warmUp2.has271(new int[]{1, 2, 7, 1}));
 
         Array2 arr2 = new Array2();
         System.out.println(arr2.has22(new int[]{1, 2, 2}));
