@@ -36,7 +36,7 @@ public class Main {
         System.out.println(map2.wordMultiple(new String[]{"a", "b", "a", "c", "b"}));
 
         Functional2 functional2 = new Functional2();
-        System.out.println(functional2.square56(new ArrayList<Integer>(List.of(3,1,4))));
+        System.out.println(functional2.square56(new ArrayList<>(List.of(3, 1, 4))));
     }
 
 }
