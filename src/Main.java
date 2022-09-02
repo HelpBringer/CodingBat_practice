@@ -5,6 +5,10 @@ import logicTasks.*;
 import recursionTasks.*;
 import apTasks.*;
 import mapTasks.*;
+import functionalTasks.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -31,6 +35,8 @@ public class Main {
         Map2 map2 = new Map2();
         System.out.println(map2.wordMultiple(new String[]{"a", "b", "a", "c", "b"}));
 
+        Functional2 functional2 = new Functional2();
+        System.out.println(functional2.square56(new ArrayList<Integer>(List.of(3,1,4))));
     }
 
 }
