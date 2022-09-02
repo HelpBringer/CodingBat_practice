@@ -4,6 +4,7 @@ import arrayTasks.*;
 import logicTasks.*;
 import recursionTasks.*;
 import apTasks.*;
+import mapTasks.*;
 
 public class Main {
 
@@ -26,6 +27,9 @@ public class Main {
 
         AP1 ap1 = new AP1();
         System.out.println(ap1.commonTwo(new String[]{"a", "c", "x"}, new String[] {"a", "b", "c", "x", "z"}));
+
+        Map2 map2 = new Map2();
+        System.out.println(map2.wordMultiple(new String[]{"a", "b", "a", "c", "b"}));
 
     }
 
